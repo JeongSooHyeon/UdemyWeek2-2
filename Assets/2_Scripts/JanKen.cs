@@ -130,10 +130,8 @@ public class JanKen : MonoBehaviour
         tableResult[PAR, GOO] = WIN;
         tableResult[PAR, CHOKI] = LOOSE;
         tableResult[PAR, PAR] = DRAW;
-
     }
 
-    // Update is called once per frame
     void Update()
     {
         // ¹¬Âîºü »óÅÂÀÌ¸é
