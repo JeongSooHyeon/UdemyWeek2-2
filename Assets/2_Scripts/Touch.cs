@@ -44,6 +44,7 @@ public class Touch : MonoBehaviour
                     animator.SetBool("Face_Angry", false);
                     univoice.clip = voice1;
                     univoice.Play();
+                    MsgDisp.ShowMessage("¾È³ç!\n¿À´Ãµµ ÈûÂ÷°Ô ½ÃÀÛÇØº¸ÀÚ!");
                 }
                 else if (hitobj.tag == "Body")
                 {
@@ -52,6 +53,7 @@ public class Touch : MonoBehaviour
                     animator.SetBool("Face_Angry", true);
                     univoice.clip = voice2;
                     univoice.Play();
+                    MsgDisp.ShowMessage("²¦ ´Ù¸ä!!");
                 }
             }
         }
